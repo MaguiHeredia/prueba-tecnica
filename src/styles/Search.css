@@ -1,0 +1,29 @@
+.input{
+    background-color: rgb(39, 38, 38);
+    border-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+    width: 250px;
+}
+.imagen{
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+.button{
+    background-color: rgb(96, 94, 94);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    height: 45px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none !important;
+    transition: all 500ms;
+    cursor: pointer;
+}
+.button:hover{
+    transform: scale(1.05);
+}

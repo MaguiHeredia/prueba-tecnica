@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(79, 79, 86);
+    color: white;
+    width: 420px;
+    height: 160px;
+    margin: 15px;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.image-card{
+    border-radius: 10px 0 0 10px;
+}
+.container-info{
+    margin-left: 20px;
+}
+.title-card{
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.subtitle-card{
+    padding-top: 10px;
+    margin: 0;
+    font-size: 12px;
+}
+.location{
+    color:rgb(196, 196, 196);
+    margin: 0;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.info-location{
+    font-size: 14px;
+    margin: 0
+}
